@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather website</title>
+</head>
+<body style="background-color: rgb(201, 83, 83);">
+    <center>
+ <section class="description">
+
+
+        <h2>Weather Website created using Express.</h2>
+        
+<xmp>
+       This is the Weather website where user can enter any city name and 
+    check temperature,minimum temperature, maximum temperature,humidity and
+    pressure.    
+       This is the Weather website that I have created using html,javaScript,
+    Express,body-parser and  openweathermap server's api key.We require https 
+    module to make get request to  openweathermap server.we are going to use 
+    listen method and we will give 3000 port number as argument so that our server
+    will listen to port 3000. 
+        We will use app.get() method and will give "/" as argument to get method so 
+    that whenever our server will get a request to home route ,our server will send
+    index.html file to user and user will see the input of type text where user can 
+    enter any city name and go button to check weather of entered city.
+        we will use app.post() method where our server will make https request to 
+    openweathermap server using api key and fetch data like temperature, minimum 
+    temperature,maximum temperature,humidity and pressure from openweathermap server
+    in hexadecimal format.data recieved in hexadecimal format will be parsed using 
+    JSON and displayed to user as shown in the video.
+
+    
+
+</xmp>
+</section>
+
+<section class="video" >
+    <h2>Weather Website Video.</h2>
+    <video controls="controls" src="Weatherfinal-1.mp4" height="500px" width="900px">Video not available.</video>
+</section>
+
+          
+        
+    </center>
+</body>
+</html>
